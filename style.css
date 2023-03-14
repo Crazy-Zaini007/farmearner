@@ -1,0 +1,660 @@
+
+@import url('https://fonts.googleapis.com/css3?family=poppins');
+html{
+  scroll-behavior: smooth;
+}
+body{
+  color: black;
+
+  scroll-behavior: smooth;
+}
+
+
+nav{
+  /* background: url('header1.png') ; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: white;
+
+}
+/* Header */
+
+#nav-header ul li a{
+    color:black;
+    font-size:16px;
+    text-align: left;
+    font-weight: bold;
+    border-radius: 10px;
+   
+   
+}
+#nav-header ul li a:hover{
+    color:white;
+    font-size:16px;
+    border-radius: 10px;
+    background-color: rgb(121, 207, 121);
+   
+} 
+
+
+
+@media screen and (min-width: 600px) {
+  #name {
+    color: black;
+    font-size:25px;
+    font-weight: bold;
+    
+  }
+}
+
+@media screen and (max-width: 338px) {
+#name {
+    color: black;
+    font-size:15px;
+    font-weight: bold;
+   
+  }
+}
+
+
+   #name img {
+    height: 70px;
+    width: 70px;
+    
+  }
+
+
+/* @media screen and (max-width: 338px) {
+ #name img {
+    height: 40px;
+    width:40px;
+   
+  }
+}
+   */
+
+
+.carousel-caption{
+
+  left: 5%;
+  top: 95%;
+
+} 
+.carousel{
+  margin-top: 87px;
+ }
+  
+
+ 
+
+@media screen and (min-width: 600px) {
+  .carousel-inner {
+  height: 610px;
+  width: 100%;
+    
+  }
+}
+
+@media screen and (max-width: 338px) {
+  .carousel-inner {
+    height: 250px;
+  width: 100%;
+    
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+  .carousel-item p,h5,h4,a {
+    text-align:center;
+    color: black;
+    font-size:20px;
+    z-index:99;
+    color: black;
+    text-decoration: none;
+    
+  }
+}
+
+@media screen and (max-width: 338px) {
+  .carousel-item p,h5,a {
+    text-align:center;
+    color: black;
+    font-size:10px;
+    z-index:99;
+    text-decoration: none;
+    
+  }
+}
+
+ 
+
+
+/* About */
+
+@media screen and (min-width: 600px) {
+  #about h2{
+    font-size:35px;
+    font-weight: bold;
+    color: black;
+}
+}
+@media screen and (max-width: 338px) {
+  #about h2{
+    font-size:20px;
+    font-weight: bold;
+    color: black;
+}
+
+}
+#about .life img{
+  height: 250px;
+  width: 250px;
+}
+#about{
+  
+  border-radius: 30px;
+  height: auto;
+  padding-top: 30px;
+  
+}
+#about .image-area{
+  height: 400px;
+}
+#about img{
+  height: 100%;
+  width: 100%;
+}
+.about1{
+  padding: 50px;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+.about1 {
+  height: auto;
+}
+#about p{
+  font-size: 15px;
+  color: black;
+  text-align:justify;
+  
+}
+#cycle h2{
+  font-size:35px;
+  font-weight: bold;
+  color: black;
+
+}
+
+
+/* NFTS */
+#nft .col-md-3{
+  width: 320px;
+}
+#nft .col-md-3 img{
+ height: 100%;
+width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  #nft h2{
+    font-size:35px;
+    font-weight: bold;
+    color: black;
+}
+}
+@media screen and (max-width: 338px) {
+  #nft h2{
+    font-size:20px;
+    font-weight: bold;
+    color: black;
+}
+
+}
+
+/* #nft h2{
+  font-size:35px;
+  font-weight: bold;
+  color: black;
+} */
+
+
+
+/* Table */
+
+#customers {
+  border-collapse: collapse;
+  width: 100%;
+  border-top: 2px solid #692e0c;
+  border: 1px solid black;
+  border-radius:20px;
+  
+}
+
+#customers td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: none;
+  
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #692e0c;
+color: white;
+}
+
+
+
+
+/* Tokenomics */
+
+
+
+
+
+
+
+/* #road h2{
+  font-size:35px;
+  font-weight: bold;
+  color: black;
+ 
+} */
+@media screen and (min-width: 600px) {
+  #road h2{
+    font-size:35px;
+    font-weight: bold;
+    color: black;
+}
+}
+@media screen and (max-width: 338px) {
+  #road h2{
+    font-size:20px;
+    font-weight: bold;
+    color: black;
+}
+
+}
+
+#road h4{
+ 
+  font-weight: bold;
+  color: black;
+}
+#road p{
+  font-size:15px
+}
+
+
+#market h2{
+  font-size:35px;
+  font-weight: bold;
+  color: black;;
+}
+
+#market p{
+  font-size:15px;
+}
+
+
+/* Tokenomics */
+
+
+#percentage h2{
+  font-size:35px;
+  font-weight: bold;
+  color: black;
+
+
+}
+
+
+/* Team */
+#team .row {
+  background:#692e0c;
+  border-radius: 10px;
+
+}
+hr{
+  color: white;
+}
+
+#team h2{
+  font-size:35px;
+  font-weight: bold;
+  color: white;
+
+}
+#team h4,h6{
+ color: white;
+}
+
+
+/* footer */
+
+footer{
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  padding: 50px;
+
+}
+
+footer h4{
+  color: black;
+    font-size:20px;
+    font-weight: bold;
+}
+@media screen and (min-width: 600px) {
+  footer h3 span {
+    color: black;
+    font-size:25px;
+    font-weight: bold;
+    
+  }
+}
+
+@media screen and (max-width: 338px) {
+  footer h3 span{
+    color: black;
+    font-size:20px;
+    font-weight: bold;
+   
+  }
+}
+
+@media screen and (min-width: 600px) {
+  footer h3 img {
+    height: 70px;
+    width: 70px;
+    
+  }
+}
+
+@media screen and (max-width: 338px) {
+  footer h3 img{
+    height: 40px;
+    width:40px;
+   
+  }
+}
+
+footer .anchor a {
+color: black;  
+padding-left: 10px;
+margin-top: 10px;
+text-align: center;
+border-left: 1px solid black;
+}
+ul#menu li {
+  display:inline;
+}
+footer .anchor a:hover{
+
+  color: green;
+  text-decoration: none;
+  border-left: 1px solid green;
+  
+}
+
+/* @media screen and (max-width: 600px) {
+  footer  h2 {
+    font-size: 35px;
+    color: black;
+  }
+}
+
+
+@media screen and (max-width: 338px) {
+  footer h2 {
+    font-size: 15px;
+    color: black;
+  }
+} */
+
+
+.element {
+  
+  animation: 
+    pulse 3s ease infinite alternate, 
+    nudge 5s linear infinite alternate;
+  border-radius: 100%;
+}
+
+
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(150px, 0);
+  }
+  
+  80% {
+    transform: translate(-150px, 0);
+  }
+}
+
+
+
+
+
+
+.element1 {
+ 
+  margin: 0 auto;
+  
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    
+    border-radius: 100%;
+  }
+  50% {
+   
+  }
+  100% {
+    transform: scale(1.5);
+   
+  }
+}
+
+
+
+
+.element2 {
+  width: 100%;
+  height: 100%;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+  
+  }
+  100% {
+  
+  }
+}
+
+
+
+
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 100px;
+  height: 60px;
+  width: 60px;
+}
+
+
+
+
+
+
+@media screen and (min-width: 600px) {
+  #play h2{
+    font-size:35px;
+    font-weight: bold;
+    color: black;
+}
+}
+@media screen and (max-width: 338px) {
+  #play h2{
+    font-size:20px;
+    font-weight: bold;
+    color: black;
+}
+
+}
+/* #play h2{
+  font-size:35px;
+  font-weight: bold;
+  color: black;
+} */
+
+
+#play p{
+  font-size:16px;
+  font-weight: bold;
+  color: black;
+}
+
+
+
+/* #play .col-md-6 img{
+  width: 100%;
+  height: 100%;
+} */
+
+
+
+@media screen and (min-width: 600px) {
+  #play .life img {
+    height: 400px;
+    width: 400px;
+    animation: round 4s infinite;
+  }
+}
+
+  #play .life img {
+    height: 200px;
+    width:200px;
+    animation: round 4s infinite;
+  }
+
+
+
+@keyframes round {
+0%{
+  transform: rotate(0deg);
+}
+25%{
+  transform: rotate(90deg);
+}
+50%{
+  transform: rotate(180deg);
+}
+75%{
+  transform: rotate(270deg);
+}
+100%{
+  transform: rotate(360deg);
+}
+
+}
+
+
+
+
+/* #balanced h2{
+  font-size:35px;
+  font-weight: bold;
+  color: black;
+} */
+@media screen and (min-width: 600px) {
+  #balanced h2{
+    font-size:35px;
+    font-weight: bold;
+    color: black;
+}
+}
+@media screen and (max-width: 338px) {
+  #balanced h2{
+    font-size:20px;
+    font-weight: bold;
+    color: black;
+}
+
+}
+
+ 
+#balanced  .two{
+  animation: two 3s infinite;
+}
+#balanced .col-md-2  img{
+  height: 140px;
+  width: 140px;
+
+}
+#balanced  .one{
+  animation: one 4s infinite;
+}
+@keyframes one {
+  0%{
+    transform: translateY(0rem);
+  }
+  30%{
+    transform: translateY(3rem);
+  }
+  
+}
+@keyframes two {
+  0%{
+    transform: translateY(0rem);
+  }
+  30%{
+    transform: translateY(3rem);
+  }
+  
+}
+
+@keyframes three {
+  0%{
+    transform: translateX(0rem);
+  }
+  50%{
+    transform: translateX(1rem);
+  }
+  
+}
+
+
+
